@@ -7,7 +7,6 @@ def line(array)
   array.each do |person|
     new_array << "#{counter + 1}. #{person}"
     counter += 1
-    return "The line is currently: #{new_array.join(" ")}"
   end
-  return "The line is currently empty."
+  return "The line is currently: #{new_array.join(" ")}"
 end
