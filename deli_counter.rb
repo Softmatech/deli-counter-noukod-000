@@ -2,7 +2,7 @@
 
 def line(array)
   # new_array = []
-  
+
 
   if array.size == 0
     puts "The line is currently empty."
@@ -14,7 +14,7 @@ def line(array)
       counter += 1
     end
     return "The line is currently: #{array.join("#{counter + 1}. ")}"
-    
+
   end
 end
 
