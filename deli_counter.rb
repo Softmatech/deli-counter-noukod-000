@@ -9,6 +9,6 @@ def line(array)
   end
   return "The line is currently: #{new_array.join(" ")}"
   if array.size == 0
-    return "The lineis currently empty."
+    return "The line is currently empty."
   end
 end
