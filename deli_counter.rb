@@ -6,7 +6,7 @@ def arrayCount(array)
     new_array << "#{counter}. #{person}"
     counter += 1
   end
-  return "The line is currently: #{new_array.join(" #{counter}. ")}"
+  return "The line is currently: #{new_array.join(" ")}"
 end
 
 def line(array)
