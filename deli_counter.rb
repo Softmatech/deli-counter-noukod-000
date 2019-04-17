@@ -5,7 +5,7 @@ def line(array)
   new_array = []
   counter = 0
   array.each do |person|
-    new_array << "#{counter + 1} #{person}"
+    new_array << "#{counter + 1}. #{person}"
   end
-  puts "#{new_array}"
+  return "The line is currently: #{new_array}"
 end
