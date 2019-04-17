@@ -20,6 +20,7 @@ end
 def now_serving(array)
     array.each do |person|
       return "Currently serving #{person}."
-      array.shift
+      
     end
+    array.shift
 end
