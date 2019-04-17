@@ -8,4 +8,7 @@ def line(array)
     counter += 1
   end
   return "The line is currently: #{new_array.join(" ")}"
+  if array.size == 0
+    return "The lineis currently empty."
+  end
 end
