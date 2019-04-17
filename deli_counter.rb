@@ -13,10 +13,8 @@ end
 
 
 def take_a_number(array,name)
-  if array.size == 0
-  array << name
-else
+
   array.push(name)
-  end
+  puts "Welcome, #{name}. You are number #{array.size + 1} in line."
 
 end
