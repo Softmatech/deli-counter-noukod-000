@@ -3,10 +3,10 @@ def arrayCount(array)
   new_array = []
   counter = 0
   array.each do |person|
-    new_array << "#{counter}. #{person}"
+    # new_array << "#{counter}. #{person}"
+    return "The line is currently: #{array.join(" #{counter}. ")}"
     counter += 1
   end
-  return "The line is currently: #{array.join(" #{counter}. ")}"
 end
 
 def line(array)
