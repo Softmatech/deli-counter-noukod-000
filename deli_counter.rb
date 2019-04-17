@@ -2,14 +2,7 @@
 
 def line(array)
   # "The line is currently: 1. Ada 2. Grace 3. Kent"
-  new_array = []
-  counter = 0
-  if counter == array.size
-    return "The line is currently empty."
-  end
   array.each do |person|
-    new_array << "#{counter + 1}. #{person}"
-    counter += 1
+        return "#{array.index}"
   end
-
 end
