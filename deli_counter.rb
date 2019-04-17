@@ -7,5 +7,5 @@ def line(array)
   array.each do |person|
     new_array << "#{counter + 1}. #{person}"
   end
-  return "The line is currently: #{new_array}"
+  return "The line is currently: #{new_array.join(" ")}"
 end
