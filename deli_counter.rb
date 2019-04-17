@@ -9,8 +9,8 @@ def line(array)
 mpty."
   end
   array.each do |person|
-    new_array << "#{counter + 1}. #{person}" 
+    new_array << "#{counter + 1}. #{person}"
     counter += 1
   end
-    
+
 end
