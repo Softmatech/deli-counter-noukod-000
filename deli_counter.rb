@@ -8,8 +8,10 @@ def line(array)
   #   counter += 1
   # end
   # return "The line is currently: #{new_array.join(" ")}"
-  if array.size == 0
-    return "The line is currently empty."
-  end
-  return "The line is currently empty."
+  
+end
+
+
+def take_a_number(array,name)
+  array << name
 end
