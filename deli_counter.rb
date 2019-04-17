@@ -2,9 +2,15 @@
 
 def line(array)
   # "The line is currently: 1. Ada 2. Grace 3. Kent"
-  if array.size > 0
-    return "The line is currently: #{array[0, array.length].join('#{array.index} ')}"
-  elsif array.size == 0
-    return "The line is currently empty."
+  new_array = []
+  counter = 0
+  if counter == array.size
+    return "The line is currently e
+mpty."
   end
+  array.each do |person|
+    new_array << "#{counter + 1}. #{person}" 
+    counter += 1
+  end
+    
 end
