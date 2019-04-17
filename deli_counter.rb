@@ -13,5 +13,8 @@ end
 
 
 def take_a_number(array,name)
+  if array.size == 0
   array << name
+  end
+  
 end
