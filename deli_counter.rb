@@ -5,8 +5,7 @@ def line(array)
   new_array = []
   counter = 0
   if counter == array.size
-    return "The line is currently e
-mpty."
+    return "The line is currently empty."
   end
   array.each do |person|
     new_array << "#{counter + 1}. #{person}"
