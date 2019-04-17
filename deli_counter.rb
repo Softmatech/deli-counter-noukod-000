@@ -1,20 +1,21 @@
 # Write your code here.
+def arrayCount(array)
+  new_array = []
+  counter = 0
+  array.each do |person|
+    new_array << "#{counter + 1}. #{person}"
+    counter += 1
+  end
+  return "The line is currently: #{array.join("#{counter + 1}. ")}"
+end
 
 def line(array)
-  # new_array = []
-
+  
 
   if array.size == 0
     puts "The line is currently empty."
   else
-
-    counter = 0
-    array.each do |person|
-      new_array << "#{counter + 1}. #{person}"
-      counter += 1
-    end
-    return "The line is currently: #{array.join("#{counter + 1}. ")}"
-
+    puts arrayCount(array)
   end
 end
 
