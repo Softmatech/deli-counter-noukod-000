@@ -18,9 +18,6 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-    array.each do |person|
-      return "Currently serving #{person}."
-
-    end
-    array.shift
+      pr = array.shift
+      return "Currently serving #{pr}."
 end
