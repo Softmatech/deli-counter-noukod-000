@@ -1,18 +1,18 @@
 # Write your code here.
 
 def line(array)
-  # new_array = []
-  # counter = 0
-  # # array.each do |person|
-  # #   new_array << "#{counter + 1}. #{person}"
-  # #   counter += 1
-  # # end
-  # return "The line is currently: #{array.join("#{counter + 1}. ")}"
+  
 
   if array.size == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.join("#{counter + 1}. ")}"
+    new_array = []
+    counter = 0
+    array.each do |person|
+      new_array << "#{counter + 1}. #{person}"
+      counter += 1
+    end
+    return "The line is currently: #{array.join("#{counter + 1}. ")}"
   end
 end
 
